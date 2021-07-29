@@ -19,7 +19,10 @@ export const useFullEntityEditState = (
   console.log("JOLE MODIF 1");
 
   console.log("JOLE MODIF 2");
-  console.log("JOLE MODIF 2.1");
+
+
+  console.log("JOLE MODIF 3");
+  console.log("JOLE MODIF 3.1");
 
 	const isEditStateValid = (newValue, errorTypes, dependencies) => {
 		let error = null;
