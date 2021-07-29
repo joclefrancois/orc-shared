@@ -16,6 +16,9 @@ export const useFullEntityEditState = (
 
 	const mergedValidationRules = { ...validationRules, ...extendedValidationRules };
 
+  console.log("JOLE MODIF 1");
+  console.log("JOLE MODIF 1.1");
+
 	const isEditStateValid = (newValue, errorTypes, dependencies) => {
 		let error = null;
 		errorTypes.forEach(errorType => {
